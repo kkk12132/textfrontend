@@ -5,7 +5,8 @@ const downloadBtn = document.getElementById("downloadBtn");
 const loadingText = document.getElementById("loadingText");
 const timerText = document.getElementById("timerText");
 
-// IMPORTANT: Replace this with your Render backend URL after deployment
+// 🔥 IMPORTANT: Update this after deploying to Render
+// Your current URL looks correct: https://textoimg01.onrender.com
 const API_URL = "https://textoimg01.onrender.com/generate-image";
 
 let timer = 0;
